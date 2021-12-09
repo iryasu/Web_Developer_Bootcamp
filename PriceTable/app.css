@@ -59,7 +59,7 @@ body {
 }
 
 .panel {
-    margin: 0 10em;
+
     width: 100%;
     max-width: 960px;
     background-color: white;
@@ -146,4 +146,10 @@ body {
 
 .is-featured:hover, .is-featured:focus {
     background-color: #269aff;
+}
+
+@media (min-width:900px) {
+    .panel {
+        flex-direction: row;
+    }
 }
