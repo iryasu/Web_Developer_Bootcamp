@@ -1,0 +1,110 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: rgba(0, 119, 255, 0.6);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.panel {
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 2vh;
+}
+
+.pricing-plan {
+    height: 30rem;
+    padding: 0vh 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.pricing-plan img {
+    width: 200px;
+    height: 120px;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+}
+
+.pricing-header {
+    padding-bottom: 5vh;
+}
+
+.pricing-features-item {
+    text-align: center;
+    padding: 2vh 0vh;
+}
+
+.pricing-price {
+    padding: 1vh 0vh
+}
+
+.pricing-button {
+    padding: 1vh 3vh;
+    border-style: solid;
+    border-color: rgb(0, 162, 255);
+    border-width: 1px;
+    border-radius: 1vh;
+    text-decoration: none;
+}
+
+.is-featured {
+    background-color: rgb(0, 162, 255);
+    color: white;
+}
